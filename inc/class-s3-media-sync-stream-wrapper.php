@@ -1,6 +1,5 @@
 <?php
 
-
 use Aws\S3\S3ClientInterface;
 use Aws\CacheInterface;
 use Aws\LruArrayCache;
@@ -12,6 +11,8 @@ use GuzzleHttp\Psr7\CachingStream;
 use Psr\Http\Message\StreamInterface;
 
 /**
+ * Props S3-Uploads and HM: https://github.com/humanmade/S3-Uploads/
+ *
  * Amazon S3 stream wrapper to use "s3://<bucket>/<key>" files with PHP
  * streams, supporting "r", "w", "a", "x".
  *
