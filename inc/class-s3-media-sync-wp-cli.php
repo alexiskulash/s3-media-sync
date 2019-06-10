@@ -94,6 +94,8 @@ class S3_Media_Sync_WP_CLI_Command extends WPCOM_VIP_CLI_Command {
 	/**
 	* Remove files from S3
 	*
+	* Props S3 Uploads and HM: https://github.com/humanmade/S3-Uploads/
+	*
 	* @synopsis <path> [--regex=<regex>]
 	*/
 	public function rm( $args, $args_assoc ) {
