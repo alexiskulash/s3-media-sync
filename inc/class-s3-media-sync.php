@@ -82,6 +82,8 @@ class S3_Media_Sync {
 	}
 
 	/**
+	 * Props S3 Uploads and HM: https://github.com/humanmade/S3-Uploads/
+	 *
 	 * Register the stream wrapper for s3
 	 */
 	public function register_stream_wrapper() {
@@ -265,6 +267,8 @@ class S3_Media_Sync {
 	}
 
 	/**
+	 * Props S3 Uploads and HM: https://github.com/humanmade/S3-Uploads/
+	 *
 	 * @return Aws\S3\S3Client
 	 */
 	public function s3() {
